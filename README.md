@@ -1,360 +1,191 @@
-# Djinn (Jinn)
+# Djinn
 
-> *"And He created the jinn from smokeless fire." — Quran 55:15*
+> An order of supernatural beings in pre-Islamic Arabian religion and in Islam, created (according to the Quran) from smokeless fire. Jinn possess free will, can be Muslim or non-Muslim, and constitute one of the three created orders alongside humans and angels. Western 'genies' are a literary distortion of the tradition.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Status](https://img.shields.io/badge/status-active-brightgreen)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-active-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `djinn` |
 | **Category** | ENTITY_SPIRIT |
-| **Classification** | Islamic/Arabian Supernatural Being |
-| **First Recorded** | Pre-Islamic era; Quranic 7th century CE |
-| **Primary Region** | Islamic world (Middle East, North Africa, Asia) |
-| **Status** | Active religious belief |
+| **Subcategory** | Islamic supernatural beings (third created order alongside angels and humans) |
+| **First recorded** | 0610-01-01 |
+| **Primary range** | Belief in jinn is universal across the Islamic world and present in regions of pre-Islamic Arabian religious continuity |
+| **Status** | active |
 
 ---
-
 ## Overview
 
-**Djinn** (jinn) are supernatural beings in Islamic theology and pre-Islamic Arabian mythology, created by God from **smokeless fire** (humans were created from clay, angels from light). They are invisible to humans under normal circumstances but can manifest in various forms.
-
-Djinn possess **free will**, meaning they can choose to be good, evil, or neutral, and are morally accountable for their actions just as humans are. In Islamic belief, djinn have their own societies parallel to humans, with families, religions, and nations. They can be Muslim or non-Muslim.
-
-Types of djinn include **Marid** (powerful), **Ifrit** (malevolent), **Ghul** (demonic), and **Jann** (least powerful). Djinn possess powers including shape-shifting, invisibility, possession, superhuman abilities, and flight.
-
-In Islamic tradition, the prophet **Suleiman (Solomon)** was granted control over djinn and used them to build temples and perform great works. The Quran mentions djinn extensively, and **Iblis (Satan)** is identified as a djinn who refused to bow to Adam.
-
-⚠️ **Critical Note**: While Western popular culture depicts "genies" as wish-granting spirits in lamps (from Arabian Nights), this is a **significant misrepresentation**. The "three wishes" trope is NOT part of traditional Islamic or Arabian djinn theology.
-
-🕌 **Religious Sensitivity**: Djinn are part of **living Islamic religious belief** for millions of Muslims worldwide. This is theological reality, not merely folklore.
+Jinn (singular jinnī; English djinn) are supernatural beings of pre-Islamic Arabian religion incorporated into Islam as one of three created orders alongside humans (created from clay) and angels (created from light). According to the Quran, jinn were created from a 'smokeless fire' (mārij min nār, Q. 55:15) and are subject like humans to divine judgment, with free will to obey or disobey God. Jinn live alongside humans, generally invisible, and inhabit ruins, deserts, mountains, marketplaces, and human dwellings. The Quran devotes a full surah to them (Sūrat al-Jinn, Q. 72), in which a group of jinn hear the Prophet Muhammad recite and embrace Islam. Iblīs, identified in Q. 18:50 as 'one of the jinn' who refused to bow to Adam, becomes the leader of the shayāṭīn (devils). Classical Islamic sources (al-Jāḥiẓ, al-Damīrī, al-Suyūṭī) and modern studies (notably Amira El-Zein, Islam, Arabs, and the Intelligent World of the Jinn, 2009) describe a typology of jinn including Marid (powerful, often associated with the sea), Ifrīt (powerful and often malevolent), Ghūl (wilderness and graveyard dwellers), Si'lā (female shape-shifters), and Jānn (least-powerful class). King Solomon (Sulaymān) is held to have been granted authority over the jinn (Q. 38:36–38) and to have used them to build temples and works. The Western 'genie of the lamp' figure, popularised by 18th-century European translations of One Thousand and One Nights and especially by the tale of Aladdin (added to the Galland edition c. 1710 from the dictation of Ḥannā Diyāb), gives only a distorted picture: free-will-bearing, religiously-accountable jinn are not the same as Western wish-granting spirits, and the 'three wishes' motif is largely a Western literary invention. Belief in jinn remains an article of mainstream Sunni and Shi'a Islamic doctrine; rituals to seek refuge from jinn (taʿawwudh) and to expel jinn from the possessed (ruqyah) remain part of contemporary Islamic religious practice.
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| Jinn / جن | Arabic | concealed, hidden |
+| Genie | English (via French génie, from jinnī) |  |
+| Marid / مارد | Arabic | powerful jinn class |
+| Ifrit / عفريت | Arabic | powerful, often malevolent jinn class |
+| Ghul / غول | Arabic | graveyard / wilderness jinn |
+| Si'la | Arabic | shape-shifting female jinn |
+| Jann / جان | Arabic | least powerful jinn class |
 
-### Primary Name
-- **Djinn / Jinn** (الجن) — From Arabic root j-n-n meaning "to hide" or "to conceal," referring to their hidden/invisible nature.
+## Etymology
 
-### Alternative Names
-
-| Name | Language | Meaning/Context |
-|------|----------|-----------------|
-| Jinn | Arabic | Primary term |
-| Jinni | Arabic (singular) | Single djinn |
-| Genie | English | Westernized/Anglicized (often misrepresented) |
-| الجن | Arabic (script) | Al-Jinn |
-
----
-
-## Classification
-
-### Taxonomy
-```
-Category: ENTITY_SPIRIT
-├── Type: Islamic/Arabian Supernatural Being
-├── Subtype: Fire Creation
-└── Variant: Marid, Ifrit, Ghul, Jann, Shaytan
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| Angels (Malaika) | Related | Created from light, lack free will |
-| Demons (Shayatin) | Related | Evil djinn or offspring of Iblis |
-| [Peri](/peri) | Related | Persian supernatural beings |
+- **Origin**: Arabic root j-n-n (ج-ن-ن), meaning 'to cover, conceal, hide'. Cognate with Aramaic ginnāyē 'tutelary spirits' and possibly with Greek/Latin genius.
+- **Meaning**: 'The hidden ones' / 'concealed beings'.
+- **First use**: Attested in pre-Islamic Arabic poetry (e.g. of al-Aʿshā) and central to Islamic scripture from the early 7th century CE.
 
 ---
+## Related Phenomena
 
-## Nature & Characteristics
-
-### Creation & Essence
-
-| Aspect | Description |
-|--------|-------------|
-| **Created From** | Smokeless fire (vs. humans from clay, angels from light) |
-| **Visibility** | Invisible to humans normally; can manifest |
-| **Free Will** | Yes — can choose good, evil, or neutral |
-| **Mortality** | Long-lived but not immortal |
-| **Accountability** | Subject to divine judgment like humans |
-
-### Types of Djinn
-
-| Type | Description | Power Level | Disposition |
-|------|-------------|-------------|-------------|
-| **Marid** | Most powerful; associated with water/air | Very High | Variable |
-| **Ifrit** | Cunning and powerful; associated with fire | High | Usually evil |
-| **Ghul** | Demonic; shape-shifters (origin of "ghoul") | Medium | Evil/predatory |
-| **Jann** | Ancestors of djinn; desert-dwelling | Low | Variable |
-| **Shaytan** | Evil djinn; followers of Iblis (Satan) | Variable | Evil |
-
-### Abilities & Powers
-
-| Ability | Description | Frequency |
-|---------|-------------|-----------|
-| **Shape-shifting** | Can take forms of animals, humans, etc. | Common |
-| **Invisibility** | Natural state; can choose to manifest | Always |
-| **Possession** | Can possess or influence humans | Occasional |
-| **Superhuman strength** | Greater physical power than humans | Common |
-| **Flight** | Can fly or travel rapidly | Common |
-| **Longevity** | Live much longer than humans | Always |
+- [Demons (general)](../demons/) — _related_: Often conflated with jinn in Western framings, though Islamically distinct
+- [Ifrit](../ifrit/) — _subset_: Powerful jinn class
+- [Ghul](../ghul/) — _subset_: Wilderness jinn class
+- [Marid](../marid/) — _subset_: Powerful, often sea-associated jinn class
+- [Iblīs](../iblis/) — _subset_: The fallen jinn who refused to bow to Adam (Q. 18:50)
+- [Div](../div/) — _counterpart_: Iranian demon class often equated with jinn in Persianate usage
+- [Shayāṭīn (devils)](../demons/) — _related_: Distinct category, including Iblīs and his followers
 
 ---
+## Physical Description
 
-## Djinn Society
+- **Coloration**: invisible by default; reported manifestations vary widely
+- **Morphology**: Generally incorporeal; classical sources describe them as inhabiting bodies of subtle fire.
 
-### Parallel to Humanity
+### Features
 
-Djinn have their own complex societies mirroring human civilization:
+| Feature | Description | Frequency |
+|---|---|---|
+| Created from smokeless fire | Quranic doctrine (Q. 15:27, 55:15) holds that jinn are made of mārij min nār, 'a smokeless fire' | always |
+| Invisibility by default | Jinn ordinarily cannot be seen by humans; manifestations are reported in tradition but not normative | common |
+| Capacity to assume forms | Tradition holds that jinn may appear as snakes, dogs, scorpions, or humans, especially at threshold places | common |
 
-- **Families and tribes**
-- **Religious believers and non-believers**
-- **Nations and kingdoms**
-- **Social hierarchies**
-- **Moral and immoral individuals**
+## Reported Abilities
 
-### Religion
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Invisibility | Default state, except when intentionally manifesting | always | folklore |
+| Shape-shifting | Especially into snakes, black dogs, and human form | common | folklore |
+| Possession of humans | Held by classical and contemporary Islamic tradition to be possible; treated through ruqyah | occasional | folklore |
+| Rapid travel | The jinn ʿIfrīt of Q. 27:39–40 offers to bring the throne of Bilqis to Solomon before he can rise from his seat | common | folklore |
+| Moral agency / free will | Jinn can be Muslim, Christian, Jewish, polytheist, or unbeliever, and are accountable like humans | always | folklore |
 
-In Islamic theology, djinn can be:
-- Muslim or non-Muslim
-- Believers (mu'min) or disbelievers (kafir)
-- Righteous or sinful
-- Will face divine judgment on Day of Judgment
+## Behavior
 
----
-
-## Islamic Theology
-
-### Quranic References
-
-| Topic | Description | Quranic Reference |
-|-------|-------------|-------------------|
-| **Creation** | Created from smokeless fire | Quran 15:27, 55:15 |
-| **Surah Al-Jinn** | Entire chapter dedicated to djinn | Quran, Surah 72 |
-| **Free Will** | Possess free will and moral responsibility | Throughout Quran |
-| **Judgment** | Will be judged on Day of Judgment | Various verses |
-| **Iblis (Satan)** | Identified as a djinn who disobeyed God | Quran 18:50 |
-
-### Prophet Suleiman (Solomon)
-
-God granted Prophet Suleiman special powers:
-
-| Power | Description | Source |
-|-------|-------------|--------|
-| **Control over djinn** | Command djinn to perform tasks | Quran 27:17-19 |
-| **Command wind** | Control over the wind | Quran 34:12-13 |
-| **Understand animals** | Ability to communicate with animals | Quran 27:16 |
-| **Building projects** | Djinn built temples, palaces, and monuments | Quran 34:12-13, 38:36-38 |
-
-### Interaction with Humans
-
-**Possession**: Djinn can possess humans. Islamic exorcism (ruqyah) practices exist to address this.
-
-**Communication**: Djinn can communicate with humans, may deceive or assist.
-
-**Marriage**: Some traditions mention djinn-human marriages (controversial in Islamic scholarship).
-
-**Protection**: Quranic verses, prayers, and supplications used for protection from harmful djinn.
+- **Activity**: variable
+- **Disposition**: variable
+- **Social structure**: variable
+- **Habitat**: ruins, deserts and wildernesses, marketplaces, bath-houses (hammāms), thresholds and abandoned places
 
 ---
+## Distribution
 
-## Geographic & Cultural Distribution
+Belief in jinn is universal across the Islamic world and present in regions of pre-Islamic Arabian religious continuity. The jinn appear in folklore from the Maghreb to Southeast Asia.
 
-### Primary Range
-
-Belief in djinn spans the Islamic world:
-
-**Regions**:
-- Arabian Peninsula
-- Middle East (Iraq, Syria, Jordan, Lebanon)
-- North Africa (Egypt, Morocco, Algeria, Tunisia)
-- Central Asia
-- South Asia (Pakistan, India, Bangladesh)
-- Southeast Asia (Indonesia, Malaysia)
-- Parts of Sub-Saharan Africa
-
-### Cultural Variations
-
-Different Islamic cultures have regional variations in djinn beliefs and folklore while maintaining core Islamic theological understanding.
 
 ---
-
 ## Historical Timeline
 
-### Origins & Development
+| Date | Event | Significance |
+|---|---|---|
+| 0610-01-01 | Beginning of Quranic revelation; jinn appear in early Meccan revelations | Establishes the Islamic doctrine of jinn |
+| 0869-01-01 | Al-Jāḥiẓ writes Kitāb al-Ḥayawān (Book of Animals), with extensive treatment of jinn | Major early Abbasid scholarly treatment |
+| 1372-01-01 | Al-Damīrī's Ḥayāt al-ḥayawān al-kubrā synthesises traditions on jinn | Classical encyclopaedic treatment |
+| 1505-01-01 | Al-Suyūṭī compiles Lāqiṭ al-marjān fī aḥkām al-jānn, a hadith-based treatise on jinn | Classical hadith-collection on jinn |
+| 1704-01-01 | Antoine Galland publishes the first volume of Les Mille et une nuits in French | Introduces 'le génie' to European literature |
+| 1709-01-01 | Galland adds the 'Aladdin and the Wonderful Lamp' tale to volumes IX–X of his translation, drawing on dictation by the Maronite Syrian traveller Ḥannā Diyāb | Origin of the Western lamp-genie trope |
+| 2009-01-01 | Amira El-Zein publishes Islam, Arabs, and the Intelligent World of the Jinn (Syracuse UP) | Major modern academic study |
 
-| Period | Event | Significance |
-|--------|-------|--------------|
-| Pre-7th century | Pre-Islamic Arabian beliefs | Ancient traditions of desert spirits |
-| 7th century CE | Quranic revelation | Djinn formally incorporated into Islamic theology |
-| Medieval Islamic period | Theological development | Scholars elaborate on djinn nature and types |
-| 8th-14th centuries | Arabian Nights compilation | Folk tales including djinn (later misrepresented) |
-| 19th-20th centuries | Western translations | "Genie" concept enters Western culture |
-| 20th-21st centuries | Pop culture distortion | Disney, etc. create inaccurate "three wishes" stereotype |
+## Evidence
 
----
+### Documentary
 
-## The "Genie" Misrepresentation
-
-### Western vs. Islamic Understanding
-
-⚠️ **Critical Distinction**:
-
-| Aspect | Islamic/Arabian Tradition | Western "Genie" Stereotype |
-|--------|---------------------------|----------------------------|
-| **Nature** | Beings with free will, societies, religions | Wish-granting servants |
-| **Wishes** | NOT part of theology | "Three wishes" trope |
-| **Containment** | Not typically imprisoned in lamps/bottles | Lamp/bottle imprisonment common |
-| **Disposition** | Morally complex, can be good/evil | Usually comedic or servile |
-| **Status** | Theological beings subject to God | Magical servants of humans |
-
-### Origins of Misrepresentation
-
-1. **Arabian Nights**: Medieval folk tales (not religious texts) featured some djinn stories with embellishments
-2. **Victorian Orientalism**: 19th-century European fascination with exoticized "Orient"
-3. **Literary adaptations**: Western authors took creative liberties
-4. **Hollywood**: Disney's *Aladdin* (1992) and similar works created lasting stereotypes
-
-**The "three wishes" concept is largely a Western invention**, not authentic to Islamic theology or most Arabian folklore.
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Sūrat al-Jinn (Q. 72) |  | Surah of the Quran specifically devoted to the jinn, including their hearing of the Prophet's recitation and conversion to Islam. | verified |
+| Kitāb al-Ḥayawān (al-Jāḥiẓ) | 869 | Encyclopaedic Abbasid-era treatise on animals that includes extensive material on jinn. | verified |
+| Les Mille et une nuits (Antoine Galland) | 1704-1717 | First European translation of the One Thousand and One Nights; introduces the 'génie' to Western literature, including the Aladdin tale dictated by Ḥannā Diyāb. | verified |
 
 ---
+## Theories & Explanations
 
-## Cultural Significance
+### Paranormal / Cryptozoological
 
-### Religious Belief
+**Real created beings (Islamic doctrine)** _(Mainstream Sunni and Shi'a Islamic theology)_
 
-🕌 **Cultural Sensitivity Note**: For millions of Muslims worldwide, djinn are **not folklore or mythology** but part of religious reality, confirmed by the Quran.
+Within Islamic theology, the jinn are real created beings, made of fire, who live alongside humans, possess free will, and are accountable to God.
 
-**Respect Guidelines**:
-- Recognize Islamic religious context
-- Avoid mockery or trivialization
-- Distinguish authentic theology from pop culture "genies"
-- Do not conflate religious belief with superstition
+### Skeptical
 
-### Popular Culture
+**Anthropological / religious-studies framing** _(Celia Rothenberg, Tanya Luhrmann, Travis Zadeh)_
 
-#### Literature
-- *One Thousand and One Nights* (Arabian Nights) — Medieval folk tales
-- *The Golem and the Jinni* by Helene Wecker (2013)
-- Various fantasy novels featuring djinn
+Jinn-belief functions as a culturally elaborated explanatory and therapeutic framework for misfortune, illness, dreams, and unusual experience. Cross-cultural anthropological work (Celia Rothenberg, Tanya Luhrmann) treats jinn-beliefs as a serious religious and cultural phenomenon without committing to their ontology.
 
-#### Film/TV
-- *Aladdin* (Disney, 1992) — **Highly inaccurate** portrayal
-- *Kazaam* (1996) — Western genie stereotype
-- *Wishmaster* (1997) — Horror film
-- *American Gods* (TV) — Features Ifrit character
+**Western literary distortion** _(Robert Irwin, Marina Warner)_
 
-#### Games
-- Dungeons & Dragons — Genie-kin creatures
-- World of Warcraft — Djinn characters
-- Various fantasy games
+The 'genie of the lamp' / 'three wishes' figure of European literature and Disney film bears only a distant relationship to Islamic jinn doctrine.
 
----
 
-## Symbolism & Meaning
+## Indigenous Perspectives
 
-### Theological Significance
+> ⚠️ **The Western 'genie' / 'wish-granting spirit' is a literary distortion. Jinn-belief is a living article of Islamic doctrine for over a billion people; framing should respect this.**
 
-Djinn represent:
-- **Hidden forces** and unseen influences in the world
-- **Free will** and moral choice (like humans)
-- **Power and temptation**
-- **Parallel creation** to humanity
-- **Diversity of God's creation**
-- **Unseen dimensions** of reality
+**Cultures**: Arabs, Persians, Berbers, Sahelian Muslims, South Asian Muslims, Malay and Indonesian Muslims, Balkan Muslims, Turkic Muslims
+
+Central to Islamic religious life; treat with the seriousness due to a living religious belief, not as 'fantasy creatures'.
+
+_Guidelines: Distinguish carefully between the Islamic doctrine of jinn, regional folk practice, and the Western literary 'genie'._
+
+## Popular Culture
+
+**Literature**: Sūrat al-Jinn, Quran 72; Kitāb al-Ḥayawān — al-Jāḥiẓ (9th century); Les Mille et une nuits — Antoine Galland (1704–1717); Islam, Arabs, and the Intelligent World of the Jinn — Amira El-Zein (2009); The Bones of Grace and other novels by Tahmima Anam (jinn motifs); City of Brass — S. A. Chakraborty (2017)
+
+**Film / TV**: The Thief of Bagdad (1924, 1940); Aladdin (Walt Disney, 1992); Wishmaster (1997) and sequels; Under the Shadow (Babak Anvari, 2016); American Gods (TV, 2017); The Djinn (2021)
+
+**Games**: Magic: The Gathering — multiple Djinn cards; The Witcher 3: Wild Hunt — djinn quest; Sonic and the Secret Rings (2007)
+
+**Other**: Major Islamic protective practice (taʿawwudh, ruqyah); Substantial popular literature in Arabic, Persian, Urdu, Malay
 
 ---
+## Research
 
-## Protection & Exorcism
+### Researchers
 
-### Islamic Practices
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Amira El-Zein | Georgetown University | Major modern academic monograph on jinn (2009) | 2000s–present |
+| Travis Zadeh | Yale University | Studies of jinn in classical Islamic thought | 2010s–present |
+| Celia Rothenberg | McMaster University | Spirits of Palestine: Gender, Society, and Stories of the Jinn (2004) | 1990s–present |
+| Robert Irwin | School of Oriental and African Studies | The Arabian Nights: A Companion (1994), source-critical study | 1990s–present |
 
-**Protection from Harmful Djinn**:
-- Recitation of Quranic verses (Ayat al-Kursi, etc.)
-- Prayers and supplications
-- Seeking refuge in God (Ta'awwudh)
-- Ritual cleanliness and faith
+### Organizations
 
-**Exorcism (Ruqyah)**:
-- Quranic recitation over afflicted person
-- Supplications
-- Performed by knowledgeable individuals
-- Recognized in Islamic tradition
+- [International Institute of Islamic Thought](https://iiit.org) — Islamic religious-studies scholarship
+- [Encyclopaedia of Islam (Brill)](https://referenceworks.brill.com/browse/encyclopaedia-of-islam-3) — Standard reference for Islamic studies, including the article 'Djinn'
 
----
-
-## Research & Scholarship
-
-### Areas of Study
-
-**Theological**: Islamic scholars examine Quranic and Hadith references to djinn
-
-**Anthropological**: Study of djinn beliefs across Islamic cultures
-
-**Psychological**: Examination of possession beliefs and exorcism practices
-
-**Folkloric**: Documentation of regional djinn traditions and tales
-
-### Ongoing Studies
-
-Contemporary research examines:
-- Djinn beliefs in modern Islamic societies
-- Variations across different cultures
-- Relationship between doctrine and folk belief
-- Psychological and sociological aspects
+Continuing scholarship in Islamic studies, anthropology, and comparative religion; growing interest in modern Muslim popular culture's engagement with jinn.
 
 ---
+## Sources
 
-## API Reference
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-Machine-readable data is available in [`api.json`](api.json).
 
-### Data Access
+## How to Report a Sighting
 
-```javascript
-// Using WyrdnessAPI
-const wyrd = new WyrdnessAPI();
-const djinn = await wyrd.getPhenomenon('djinn');
-```
-
-### Direct Access
-
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/djinn/main/api.json
-```
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
-## Sources & References
-
-See [SOURCES.md](SOURCES.md) for complete bibliography.
-
-### Primary Sources
-
-- The Quran — Primary Islamic scripture with extensive djinn references
-- Lebling, R. (2010). *Legends of the Fire Spirits: Jinn and Genies from Arabia to Zanzibar*. I.B. Tauris.
-- El-Zein, A. (2009). *Islam, Arabs, and the Intelligent World of the Jinn*. Syracuse University Press.
-
----
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-[Suggest Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._
